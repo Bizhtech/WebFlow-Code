@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Arial_Rounded_MT_Bold;
+  src: url(Fonts/ARIAL_ROUNDED_BOLD.TTF);
+}
+
+@font-face {
+  font-family: Arial_Rounded_MT;
+  src: url(Fonts/ARIAL_ROUNDED_MT.TTF);
+}
+
+
+.mentorstxt{
+  font-family: Arial_Rounded_MT;
+  font-size:  30px;
+}
+.mentorstxt2{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size:  45px;
+  font-weight: 1200px;
+  color: #200660;
+}
+
+.mentorstxtmob{
+  font-family: Arial_Rounded_MT;
+  font-size:  20px;
+}
+.mentorstxtmob2{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size:  35px;
+  font-weight: 1200px;
+  color: #200660;
+}
+.applybtn{
+
+}
+.navbar{
+
+
+}
+a.nav-link{
+  font-family: Arial_Rounded_MT_Bold;
+  color: #200660 !important;
+  font-size: 16px;
+}
+
+.active a.nav-link{
+  color:#EFCA48 !important;
+}
+.nav-link:hover{
+  color:#EFCA48 !important;
+}
+@media (max-width:768px) {
+.navbar-toggler-icon{
+  height:25px;
+}
+}
+#mobNavBarToggle{
+  cursor: pointer;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+
+}
+
+.navbar-toggler {
+  border-color: rgb(255,255,255,0) !important;
+}
+#footer{
+  background-color: #ededed;
+
+}
+#mob_banner{
+  transition: top 0.5s ease-in;
+  width: 100%;
+  position: absolute;
+  z-index: 10000;
+  top: -1200px;
+}
+.mobLinks:hover path,.mobLinks.active path{
+  fill:#EFCA48 !important;
+}
+.landingheading1{
+  font-family: Arial_Rounded_MT;
+  font-size: 36px;
+  line-height: 42px;
+}
+.landingheading2{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 56px;
+  line-height: 60px;
+  color: #200660;
+}
+
+.apply_button{
+  font-family: Arial_Rounded_MT_Bold;
+  background: #200660;
+  border-radius: 18px;
+  border:none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 3rem 2px 2px 2px;
+  cursor: pointer;
+}
+
+
+.Mentors_heading{
+  color:#EFCA48;
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 45px;
+  line-height: 21px;
+}
+.Mentors_content{
+  /* color:#EFCA48; */
+  font-family: Arial_Rounded_MT;
+  font-size: 20px;
+  line-height: 30px;
+}
+.NameHeading{
+  color:#E71D36;
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.Mentors_subheading{
+  color:#EFCA48;
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 32px;
+  line-height: 30px;
+}
+
+.Mentors_subheading2{
+  color:#200660;
+  font-family: Arial_Rounded_MT;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.Uniheading{
+  font-family: Arial_Rounded_MT_Bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.follow-vfp{
+  font-family: Arial_Rounded_MT_Bold;
+  color:#200660;
+  font-size: 20px;
+}
+
+@media (max-width:768px) {
+  .Mentors_content{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .Mentors_subheading{
+    font-size: 26px;
+  }
+)
+
+#exampleModal{
+  position: fixed;
+  z-index: 2000;
+}
+.modal-header,.modal-title{justify-content: center;}
+.modal-content{
+  background: #F6F3F3;
+  border-radius: 32px;
+}
+#modalCloser,#sendMessage{cursor: pointer;}
+form.hide-submit input[type="submit"] { display: none;}
+input[type="submit"]:not(:disabled){display: none;}
